@@ -15,9 +15,59 @@ body {
     width: 100vw;
 }
 
+/** TOP NAVIGATION BAR */
+
 .nav {
     background-color: $color;
+    box-shadow: 0 0 2px 0 rgba(93, 74, 25, 0.5);
+    z-index: 1;
 }
+
+.nav-content {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 1000px) {
+    .nav-content {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+.nav-logo {
+    height: 32px;
+}
+
+.nav-link {
+    display: inline-block;
+    font-size: 16pt;
+    padding: 16px 24px;
+    color: rgb(93, 74, 25);
+    text-decoration: none;
+
+    &.home {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+
+        letter-spacing: 2px;
+        font-variant: small-caps;
+        margin-right: auto;
+
+        @media (max-width: 800px) {
+            .title {
+                display: none;
+            }
+        }
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+/** HOME PAGE HERO BANNER */
 
 .hero {
     flex-grow: 1;
@@ -33,9 +83,10 @@ body {
     box-sizing: border-box;
     position: relative;
     width: 100%;
-    padding: $gutter;
+    padding: 32px;
 
     background-color: $color;
+    box-shadow: 0 0 2px 0 rgba(93, 74, 25, 0.5);
 
     display: flex;
     align-items: center;
@@ -48,6 +99,8 @@ body {
     padding: 0;
     margin-bottom: 24px;
     text-align: center;
+    border-color: black;
+    border-style: solid;
 }
 
 .hero-title {

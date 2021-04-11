@@ -12,12 +12,20 @@
   </head>
   <body>
     <div class='layout'>
-      <nav class="nav">
-        {% for page in side.data.navigation %}
-          <a href="{{ page.url }}" class="nav-link">
-            {{ page.title }}
+      <nav class='nav'>
+        <div class='nav-content'>
+          <a href='{{site.url}}' class='nav-link home'>
+            <img src='/assets/handshake.svg' class='nav-logo' />
+            <span class='title'>
+              {{ site.title }}
+            </span>
           </a>
-        {% endfor %}
+          {% for page in site.data.navigation %}
+            <a href='{{ page.url }}' class='nav-link'>
+              {{ page.title }}
+            </a>
+          {% endfor %}
+        </div>
       </nav>
       <main class="hero">
         <div class="hero-banner">
