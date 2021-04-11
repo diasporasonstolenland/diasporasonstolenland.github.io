@@ -1,7 +1,11 @@
 ---
-layout: page
+# Change the title and the permalink (URL) to whatever you want
+# If you add a link to it in `_data/navigation.yml`, the permalink
+# should be the same as the URL you put there.
 title: About
 permalink: /about/
+# Leave `layout: page` alone
+layout: page
 ---
 
 # About
