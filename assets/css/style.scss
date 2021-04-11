@@ -38,12 +38,17 @@ body {
     height: 32px;
 }
 
+
 .nav-link {
     display: inline-block;
     font-size: 16pt;
-    padding: 16px 24px;
+    padding: 16px 8px;
     color: rgb(93, 74, 25);
     text-decoration: none;
+
+    @media (min-width: 600px) {
+        padding: 16px 24px;
+    }
 
     &.home {
         display: flex;
