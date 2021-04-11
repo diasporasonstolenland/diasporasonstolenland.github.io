@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+
+    <meta name="theme-color" content="{{ site.color }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: side.github.build_revision | relative_url }}" />
+  </head>
+  <body>
+    <div class='layout'>
+      <nav class="nav">
+        {% for page in side.data.navigation %}
+          <a href="{{ page.url }}" class="nav-link">
+            {{ page.title }}
+          </a>
+        {% endfor %}
+      </nav>
+      <main class="hero">
+        <div class="hero-banner">
+          {{ content }}
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
