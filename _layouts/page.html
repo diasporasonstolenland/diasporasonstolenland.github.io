@@ -1,23 +1,35 @@
 <!DOCTYPE HTML>
 <html lang="en">
   <head>
-    <title>{% seo %}</title>
-    <meta name="theme-color" content="{{ color }}">
-    <link rel="rel" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+
+    <meta name="theme-color" content="{{ site.color }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: side.github.build_revision | relative_url }}" />
   </head>
   <body>
-    <nav class='nav'>
-      <a href='{{site.url}}' class='nav-link home'>
-        {{ site.title }}
-      </a>
-      {% for page in site.data.navigation %}
-        <a href='{{ page.url }}' class='nav-link'>
-          {{ page.title }}
-        </a>
-      {% endfor %}
-    </nav>
-    <main class='main'>
-      {{ content }}
-    </main>
+    <div class='layout'>
+      <nav class='nav'>
+        <div class='nav-content'>
+          <a href='{{site.url}}' class='nav-link home'>
+            <img src='/assets/handshake.svg' class='nav-logo' />
+            <span class='title'>
+              {{ site.title }}
+            </span>
+          </a>
+          {% for page in site.data.navigation %}
+            <a href='{{ page.url }}' class='nav-link'>
+              {{ page.title }}
+            </a>
+          {% endfor %}
+        </div>
+      </nav>
+      <main class='page'>
+        {{ content }}
+      </main>
+    </div>
   </body>
 </html>

@@ -6,6 +6,9 @@
 
 body {
     font-family: $font;
+    background-image: url('/assets/ocean.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .layout {
@@ -26,13 +29,9 @@ body {
 .nav-content {
     display: flex;
     align-items: center;
-}
-
-@media (min-width: 1000px) {
-    .nav-content {
-        width: 1000px;
-        margin: 0 auto;
-    }
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .nav-logo {
@@ -74,9 +73,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/assets/ocean.jpg');
-    background-size: cover;
-    background-position: center;
 }
 
 .hero-banner {
@@ -137,4 +133,18 @@ body {
         font-weight: 400;
         margin: 0;
     }
+}
+
+/** REGULAR PAGE BACKGROUND */
+
+.page {
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    font-size: 14pt;
+    background-color: #fefcfa;
+    box-shadow: 0 0 2px 0 rgba(93, 74, 25, 0.15);
+    padding: 24px;
 }

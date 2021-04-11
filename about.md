@@ -4,15 +4,24 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hello this is the about page, please fill in whatever content you like.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+You can do __bold__, *italic*, __*bold and italic*__.
 
+Links look like [this](https://example.com).
 
-[jekyll-organization]: https://github.com/jekyll
+You can also do a list:
+1.  First
+2.  Second
+3.  Third
+
+Or without numbers:
+*   Hello
+*   This
+*   Is
+*   A
+*   List
+
+You can also check [this page](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for all the details, or just ask if you have questions.
