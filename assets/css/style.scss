@@ -64,25 +64,24 @@ body {
     margin: 0;
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 650px) {
     .hero-banner {
         background-image: url('/assets/sunburst.svg');
-        background-size: 960px;
+        background-size: 540px;
         background-position: center;
         background-repeat: no-repeat;
-        width: 1000px;
-        height: 1000px;
+        width: 600px;
+        height: 600px;
         border-radius: 100%;
-        padding: 100px;
+        padding: 130px;
     }
 
     .hero-title {
         text-transform: uppercase;
-        letter-spacing: 20px;
+        letter-spacing: 8px;
         line-height: 1.4;
         text-align: center;
         font-weight: 400;
-        font-size: 48pt;
         margin: 0;
     }
 }
