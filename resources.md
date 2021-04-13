@@ -6,7 +6,7 @@ permalink: /resources/
 
 # Resources
 
-Books, Articles and Readings
+##Books, Articles and Readings
 
 Camas Books (Victoria, B. C. )., & Indigenous Action Media. (2018). Accomplices not allies: Abolishing the ally industrial complex: An indigenous perspective. Camas Books.
 
@@ -46,7 +46,7 @@ Whyte, K. P. (2018). Indigenous science (fiction) for the Anthropocene: Ancestra
 
 Wong, R. (2008). Decolonizasian: Reading asian and first nations relations in literature. Canadian Literature, 199(199), 158.
 
-Videos, Movies and Films
+##Videos, Movies and Films
 
 “All Our Fathers Relations” film. (allourfathersrelations.com/synopsis)
 
@@ -54,7 +54,7 @@ Videos, Movies and Films
 
 Jordan Wilson (Musqueam). Qeqən House Posts. (https://youtu.be/1Hpa9kma8Fk).
 
-Podcasts
+##Podcasts
 
 "Seen" podcast by Nic and Lala
 
