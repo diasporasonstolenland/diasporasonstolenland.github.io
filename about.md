@@ -10,22 +10,6 @@ layout: page
 
 # About
 
-Hello this is the about page, please fill in whatever content you like.
+This zine was created by a collective of diasporic peoples living on the traditional, ancestral and unceded territories of the Lək̓ʷəŋən and W̱SÁNEĆ peoples. The purpose of this zine was to create an interactive and reflection based decolonial resource for self-identifying Black, Indigenous, mixed, and people of colour (BIMPOC). 
 
-You can do __bold__, *italic*, __*bold and italic*__.
-
-Links look like [this](https://example.com).
-
-You can also do a list:
-1.  First
-2.  Second
-3.  Third
-
-Or without numbers:
-*   Hello
-*   This
-*   Is
-*   A
-*   List
-
-You can also check [this page](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for all the details, or just ask if you have questions.
+Our zine  uses community collaboration, art, and reflection pieces that aim to build and deepen our solidarities towards Indigenous liberation.
