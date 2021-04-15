@@ -26,8 +26,6 @@ Farrales, M. (2019). Repurposing beauty pageants: The colonial geographies of Fi
 
 Genevieve. (2014, October 24). Fazeela Jiwa in Conversation with Rita Wong and Larissa Lai: Sybil unrest. Retrieved from https://lemonhound.com/2014/06/20/fazeela-jiwa-in-conversation-with-rita-wong-and-larissa-lai-sybil-unrest/
 
-Hooks, B. (1988). Talking back: Thinking feminist, thinking black. Between the Lines.
-
 Mathur, A. (2011). Cultivations, Land, and a Politics of Becoming. Cultivating Canada: Reconciliation through the Lens of Cultural Diversity. Ottawa: Aboriginal Healing Foundation, 1-10.
 
 Maynard, R. (2017). Policing Black lives: State violence in Canada from slavery to the present.
