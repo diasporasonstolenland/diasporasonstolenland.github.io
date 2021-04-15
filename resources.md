@@ -79,7 +79,7 @@ https://directory.libsyn.com/shows/view/id/therednation
 
 Seen podcast by Nic and Lala
 
-## Coast Salish & BIMPOC Mutual Aid Projects, Art, Organizations/Non-profits and Community Organizers on Coast Salish territories
+## Coast Salish & BIMPOC Mutual Aid Projects, Art, Organizations/Non-profits and Community Organizers on Coast Salish Territories
 
 African Heritage Association of Vancouver Island -  https://www.ahavi.ca
 
